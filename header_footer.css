@@ -38,7 +38,7 @@
     text-transform: uppercase;
   }
   a.active,a:hover{
-    background: #07000a;
+    background: #bdbdbde7;
     transition: .5s;
   }
   .checkbtn{
@@ -122,7 +122,7 @@
   footer {
     position: relative;
     width: 100%;
-    background: #bdbcbde1;
+    background: #b7b7b8ec;
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
@@ -147,19 +147,24 @@
   }
   footer .social_icon li a {
     font-size: 2em;
-    color: rgb(250, 245, 245);
-    margin: 0 10px;
+    color: rgb(15, 0, 22);
+    margin: 0 20px;
     display: inline-block;
     transition: 0.5s;
   }
   footer .social_icon li a:hover {
-    transform: translateY(-15px);
-    color: white
+    transform: translateY(-10px);
+    color:#0f080fe1;
+    border-radius: 7px ;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
   }
   
   footer .menu li a {
     font-size: 1.2em;
-    color: #ccc;
+    color: #0c080ce1;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
